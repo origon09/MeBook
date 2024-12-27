@@ -28,6 +28,7 @@ public class meBookController {
     public List<String> HomeApi(@RequestHeader String Authorization, @RequestParam String username){
 //        boolean isTokenValid = true;
 //        if(isTokenValid) {
+        //hard coded return link for user
             return meBook.homeApiCall(username);
         }
 //        else{
